@@ -2,6 +2,7 @@
   "name": "image-to-csv",
   "version": "1.0.0",
   "main": "index.ts",
+  "module": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.ts"
@@ -11,6 +12,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
     "axios": "^1.7.2",
     "csv-parser": "^3.0.0",
     "dotenv": "^16.4.5",
