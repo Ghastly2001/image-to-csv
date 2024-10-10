@@ -3,10 +3,12 @@ import multer from "multer";
 import csv from "csv-parser";
 import fs from "fs";
 import { PrismaClient } from "@prisma/client";
+import { v4 as uuidv4 } from "uuid";
 
 const prisma = new PrismaClient();
 const router: Router = express.Router();
 const upload = multer({ dest: "uploads/" });
+const requestId = uuidv4();
 
 interface CsvRow {
   "S. No.": string;
@@ -30,7 +32,9 @@ router.post("/", upload.single("file"), async (req, res) => {
 
   try {
     const newRequest = await prisma.request.create({
-      data: {},
+      data: {
+        id: requestId,
+      },
     });
 
     const products: Array<ProductArray> = [];
