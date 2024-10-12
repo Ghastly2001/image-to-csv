@@ -1,7 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
-async function startProcessing() {
+async function ProcessExecution() {
   const pendingRequest = await prisma.request.findMany({
     where: {
       status: "PENDING",
@@ -20,4 +20,4 @@ async function startProcessing() {
   }
 }
 
-startProcessing();
+ProcessExecution();
