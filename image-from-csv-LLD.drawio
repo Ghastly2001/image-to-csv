@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="7SB3SPlCcXXHxmxIh-Eu">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-1" value="Database" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ix0Jt4i83NipJIqp9N_r-2" target="Ix0Jt4i83NipJIqp9N_r-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-2" value="POST:&lt;div&gt;/upload-file&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ix0Jt4i83NipJIqp9N_r-3" target="Ix0Jt4i83NipJIqp9N_r-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-3" value="GET:&lt;div&gt;/progress&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ix0Jt4i83NipJIqp9N_r-4" target="Ix0Jt4i83NipJIqp9N_r-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-15" value="Notifs to webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Ix0Jt4i83NipJIqp9N_r-8">
+          <mxGeometry x="-0.1343" y="2" relative="1" as="geometry">
+            <mxPoint x="6" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ix0Jt4i83NipJIqp9N_r-4" target="Ix0Jt4i83NipJIqp9N_r-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ix0Jt4i83NipJIqp9N_r-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-4" value="ProcessImages" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="430" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ix0Jt4i83NipJIqp9N_r-5" target="Ix0Jt4i83NipJIqp9N_r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-5" value="Worker&lt;div&gt;Script&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="680" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-7" value="/webhook" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="430" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ix0Jt4i83NipJIqp9N_r-9" target="Ix0Jt4i83NipJIqp9N_r-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-13" value="Original Image url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Ix0Jt4i83NipJIqp9N_r-12">
+          <mxGeometry x="-0.4788" y="-4" relative="1" as="geometry">
+            <mxPoint x="-5" y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ix0Jt4i83NipJIqp9N_r-9" target="Ix0Jt4i83NipJIqp9N_r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-26" value="Compressed Image URL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Ix0Jt4i83NipJIqp9N_r-25">
+          <mxGeometry x="0.2234" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-9" value="Image Processor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-21" value="&lt;li&gt;Retrieve images from the provided URLs.&lt;/li&gt;&lt;li&gt;Use Sharp to reduce image size and optimize them.&lt;/li&gt;&lt;li&gt;Store the compressed images in a storage solution like AWS S3 or local storage.&lt;/li&gt;&lt;li&gt;Update the product records with the new URLs for the processed images.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="470" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-27" value="&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Retrieve products associated with the specific request ID.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Handle the download, compression, and upload process.&lt;/li&gt;&lt;li&gt;Modify product entry with updated URLs of processed images.&lt;/li&gt;&lt;li&gt;Update the request status in the database to reflect progress.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="570" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-28" value="1. Fetches progress status&lt;div&gt;2. Return status&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ix0Jt4i83NipJIqp9N_r-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Verify the integrity and format of the uploaded CSV file.&lt;/li&gt;&lt;li&gt;Generate a unique request ID for the current process.&lt;/li&gt;&lt;li&gt;Save the initial request details in the database.&lt;/li&gt;&lt;li&gt;Provide the client with the generated request ID.&lt;/li&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="155" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
